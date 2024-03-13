@@ -1,0 +1,16 @@
+{
+  "name": "New Tab",
+  "version": "3.0",
+  "manifest_version": 3,
+  "description": "A custom new tab extension",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "action": {
+    "default_icon": "recording.png"
+  },
+  "permissions": [
+    "storage",
+    "topSites"
+  ]
+}
